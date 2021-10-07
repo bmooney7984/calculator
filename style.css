@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(230, 230, 230);
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  width: 80px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  flex: 0 0 auto;
+  background-color: rgb(191, 220, 249);
+  border: 1px solid rgb(90, 90, 90);
+}
+
+.display {
+  border: 1px solid rgb(90, 90, 90);
+  border-bottom: 4px solid rgb(150, 150, 150);
+  font-size: 24px;
+  height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 3px;
+}
+
+.operator {
+  background-color: rgb(255, 230, 128);
+}
+
+.bright {
+  background-color: rgb(255, 168, 38);
+  color: rgb(255, 255, 255);
+}
